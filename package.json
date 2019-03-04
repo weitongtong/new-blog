@@ -1,0 +1,25 @@
+{
+  "name": "new-blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "gitbook-plugin-github": "^2.0.0"
+  },
+  "devDependencies": {
+    "gitbook-cli": "^2.3.2"
+  },
+  "scripts": {
+    "serve": "gitbook serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/weitongtong/new-blog.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/weitongtong/new-blog/issues"
+  },
+  "homepage": "https://github.com/weitongtong/new-blog#readme"
+}

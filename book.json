@@ -1,0 +1,70 @@
+{
+  "title": "Wtt's Blog",
+  "author": "wtt",
+  "description": "blog",
+  "language": "zh-hans",
+  "styles": {
+    "website": "./styles/website.css"
+  },
+  "structure": {
+    "readme": "README.md"
+  },
+  "links": {
+    "sidebar": {
+      "我的狗窝": "https://blankj.com",
+      "Daily-Interview-Question": "https://github.com/Advanced-Frontend/Daily-Interview-Question"
+    }
+  },
+  "plugins": [
+    "-sharing",
+    "github"
+  ],
+  "pluginsConfig": {
+    "github": {
+      "url": "https://github.com/weitongtong/new-blog.git"
+    },
+    "github-buttons": {
+      "buttons": [
+        {
+          "user": "Blankj",
+          "repo": "glory",
+          "type": "star",
+          "size": "small",
+          "count": true
+        }
+      ]
+    },
+    "sharing": {
+      "douban": false,
+      "facebook": false,
+      "google": false,
+      "hatenaBookmark": false,
+      "instapaper": false,
+      "line": false,
+      "linkedin": false,
+      "messenger": false,
+      "pocket": false,
+      "qq": false,
+      "qzone": false,
+      "stumbleupon": false,
+      "twitter": false,
+      "viber": false,
+      "vk": false,
+      "weibo": false,
+      "whatsapp": false,
+      "all": [
+        "google",
+        "facebook",
+        "weibo",
+        "twitter",
+        "qq",
+        "qzone",
+        "linkedin",
+        "pocket"
+      ]
+    },
+    "anchor-navigation-ex": {
+      "showLevel": false
+    }
+  }
+}
